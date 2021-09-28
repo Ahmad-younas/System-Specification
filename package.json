@@ -4,6 +4,7 @@
   "description": "System-specification application build with on electron",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ahmad-younas/System-Specification/issues"
   },
-  "homepage": "https://github.com/Ahmad-younas/System-Specification#readme"
+  "homepage": "https://github.com/Ahmad-younas/System-Specification#readme",
+  "devDependencies": {
+    "electron": "^15.0.0"
+  }
 }
